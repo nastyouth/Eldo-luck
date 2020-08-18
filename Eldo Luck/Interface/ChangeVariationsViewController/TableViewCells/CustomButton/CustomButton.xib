@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NoirPro-Regular.otf">
+            <string>NoirPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="KGk-i7-Jjw" customClass="CustomButton" customModule="Eldo_Luck" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="74"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="391" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2yF-Rq-IVQ">
+                        <rect key="frame" x="40" y="30" width="331" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="LW3-sN-Yqr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NoirPro-Regular" family="Noir Pro" pointSize="17"/>
+                        <state key="normal" title="Add new variation">
+                            <color key="titleColor" red="0.94840782879999996" green="0.69320982689999999" blue="0.24294918779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </state>
+                        <connections>
+                            <action selector="buttonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="7nK-j4-XHf"/>
+                        </connections>
+                    </button>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Start typing..." adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0YB-4b-UcI">
+                        <rect key="frame" x="40" y="30" width="331" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="76V-dR-fNv"/>
+                        </constraints>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="NoirPro-Regular" family="Noir Pro" pointSize="17"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZI-YU-akm">
+                        <rect key="frame" x="347" y="30" width="24" height="24"/>
+                        <state key="normal" image="okIcon"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.062746137379999997" green="0.062743760649999994" blue="0.062744207679999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstItem="2yF-Rq-IVQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="KEv-m9-gf8"/>
+                    <constraint firstItem="0YB-4b-UcI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="PKX-vz-ZVe"/>
+                    <constraint firstAttribute="trailing" secondItem="xZI-YU-akm" secondAttribute="trailing" constant="20" id="Qzw-4a-6KQ"/>
+                    <constraint firstAttribute="bottom" secondItem="xZI-YU-akm" secondAttribute="bottom" constant="18" id="Tct-6G-SIl"/>
+                    <constraint firstAttribute="trailing" secondItem="0YB-4b-UcI" secondAttribute="trailing" constant="20" id="eGg-fA-Rcb"/>
+                    <constraint firstAttribute="bottom" secondItem="2yF-Rq-IVQ" secondAttribute="bottom" constant="18" id="eXO-gx-kfR"/>
+                    <constraint firstAttribute="trailing" secondItem="2yF-Rq-IVQ" secondAttribute="trailing" constant="20" id="f0v-ES-qXc"/>
+                    <constraint firstItem="0YB-4b-UcI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="iqG-J1-ezP"/>
+                    <constraint firstItem="xZI-YU-akm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="n05-VX-WZJ"/>
+                    <constraint firstItem="2yF-Rq-IVQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="uY2-55-hVh"/>
+                    <constraint firstAttribute="bottom" secondItem="0YB-4b-UcI" secondAttribute="bottom" constant="18" id="zP8-qJ-zZU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addNewVariationButton" destination="2yF-Rq-IVQ" id="Bva-M9-pBk"/>
+                <outlet property="checkmarkButton" destination="xZI-YU-akm" id="vKP-As-ZgZ"/>
+                <outlet property="quoteTextField" destination="0YB-4b-UcI" id="DSB-gi-iBU"/>
+            </connections>
+            <point key="canvasLocation" x="148.55072463768118" y="121.875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="okIcon" width="24" height="24"/>
+    </resources>
+</document>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NoirPro-Bold.otf">
+            <string>NoirPro-Bold</string>
+        </array>
+        <array key="NoirPro-Regular.otf">
+            <string>NoirPro-Regular</string>
+        </array>
+        <array key="NoirPro-SemiBold.otf">
+            <string>NoirPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="Eldo_Luck" customModuleProvider="target">
+            <connections>
+                <outlet property="circleView" destination="IxU-v9-4Go" id="Uuo-Go-KE8"/>
+                <outlet property="newRandomButton" destination="LeQ-dL-tuW" id="gGi-jQ-nHv"/>
+                <outlet property="quoteLabel" destination="CCp-aQ-mOh" id="9rC-8l-zZs"/>
+                <outlet property="view" destination="iN0-l3-epB" id="zbs-YX-H91"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IxU-v9-4Go">
+                    <rect key="frame" x="132" y="373" width="150" height="150"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="RN7-6n-IZS"/>
+                        <constraint firstAttribute="width" constant="150" id="dvQ-r9-AN8"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mtm-0D-4pr">
+                    <rect key="frame" x="206.5" y="373" width="1" height="445"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="Edb-mv-oQc"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeQ-dL-tuW">
+                    <rect key="frame" x="19" y="755" width="376" height="63"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="63" id="ZZb-Ym-JaR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NoirPro-SemiBold" family="Noir Pro" pointSize="17"/>
+                    <state key="normal" title="New random">
+                        <color key="titleColor" red="0.94840782879999996" green="0.69320982689999999" blue="0.24294918779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </state>
+                    <connections>
+                        <action selector="randomQuote:" destination="-1" eventType="touchUpInside" id="aSJ-LT-BsF"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DO A BARREL ROLL" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCp-aQ-mOh">
+                    <rect key="frame" x="30" y="433" width="354" height="30.5"/>
+                    <fontDescription key="fontDescription" name="NoirPro-Bold" family="Noir Pro" pointSize="26"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="3L6-IC-PPt">
+                    <rect key="frame" x="30" y="75" width="61" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60.999999999999972" id="mze-fQ-9WM"/>
+                        <constraint firstAttribute="height" constant="55" id="thf-k9-ZHO"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGq-3L-Z0f">
+                    <rect key="frame" x="247" y="86" width="137" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="lyU-sO-jEF"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="33" id="mtN-0N-OI7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NoirPro-Regular" family="Noir Pro" pointSize="17"/>
+                    <state key="normal" title="Change variations">
+                        <color key="titleColor" red="0.94840782879999996" green="0.69320982689999999" blue="0.24294918779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </state>
+                    <connections>
+                        <action selector="changeVariations:" destination="-1" eventType="touchUpInside" id="5rh-ms-Ht9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.062746137379999997" green="0.062743760649999994" blue="0.062744207679999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="mtm-0D-4pr" firstAttribute="centerX" secondItem="LeQ-dL-tuW" secondAttribute="centerX" id="8OU-4B-3cg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="LeQ-dL-tuW" secondAttribute="bottom" constant="44" id="JIT-P3-9tt"/>
+                <constraint firstItem="CCp-aQ-mOh" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Ntt-8T-3dq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CCp-aQ-mOh" secondAttribute="trailing" constant="30" id="Utv-f4-NxD"/>
+                <constraint firstItem="mtm-0D-4pr" firstAttribute="top" secondItem="IxU-v9-4Go" secondAttribute="top" id="ZBi-MW-IOk"/>
+                <constraint firstItem="mtm-0D-4pr" firstAttribute="bottom" secondItem="LeQ-dL-tuW" secondAttribute="bottom" id="Zee-z5-dqM"/>
+                <constraint firstItem="IxU-v9-4Go" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="asa-EX-PgQ"/>
+                <constraint firstItem="xGq-3L-Z0f" firstAttribute="centerY" secondItem="3L6-IC-PPt" secondAttribute="centerY" id="bSE-fd-dCd"/>
+                <constraint firstItem="3L6-IC-PPt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="blG-ro-6tn"/>
+                <constraint firstItem="IxU-v9-4Go" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="feF-k0-Qsl"/>
+                <constraint firstItem="CCp-aQ-mOh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="iRv-iB-phe"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="LeQ-dL-tuW" secondAttribute="trailing" constant="19" id="mxU-9a-r4f"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="xGq-3L-Z0f" secondAttribute="trailing" constant="30" id="qzc-ml-ai3"/>
+                <constraint firstItem="LeQ-dL-tuW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="19" id="xsY-su-VPP"/>
+                <constraint firstItem="3L6-IC-PPt" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="31" id="y2Z-kU-tXu"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="781.60000000000002" y="196.55172413793105"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="161" height="133"/>
+    </resources>
+</document>

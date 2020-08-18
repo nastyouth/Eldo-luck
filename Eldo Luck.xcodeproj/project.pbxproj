@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E240150246F47DB002DB2B7 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24014F246F47DB002DB2B7 /* UIImage+Extension.swift */; };
+		2E240153246F488F002DB2B7 /* NoirPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E240152246F488F002DB2B7 /* NoirPro-Regular.otf */; };
+		2E240155246F48EA002DB2B7 /* NoirPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E240154246F48EA002DB2B7 /* NoirPro-Bold.otf */; };
+		2E240157246F490D002DB2B7 /* NoirPro-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E240156246F490D002DB2B7 /* NoirPro-SemiBold.otf */; };
+		501D253D355F33022FD70E8C /* Pods_Eldo_Luck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F726EB83D5EBFAC294F7AB63 /* Pods_Eldo_Luck.framework */; };
+		5D186713246EB8E10009073B /* QuoteCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D186711246EB8E10009073B /* QuoteCustomCell.swift */; };
+		5D186714246EB8E10009073B /* QuoteCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D186712246EB8E10009073B /* QuoteCustomCell.xib */; };
+		5D186717246EC2DD0009073B /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D186716246EC2DD0009073B /* RealmHelper.swift */; };
+		5D18671C246EC8C90009073B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18671A246EC8C90009073B /* CustomButton.swift */; };
+		5D18671D246EC8C90009073B /* CustomButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D18671B246EC8C90009073B /* CustomButton.xib */; };
+		5D18671F246ED8CC0009073B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D18671E246ED8CC0009073B /* MainViewController.xib */; };
+		5D186721246EDA830009073B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D186720246EDA830009073B /* MainViewController.swift */; };
+		5D186723246EE1EC0009073B /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D186722246EE1EC0009073B /* Quote.swift */; };
+		5D7A8046246EAE030013F7FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A8045246EAE030013F7FC /* AppDelegate.swift */; };
+		5D7A8048246EAE030013F7FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A8047246EAE030013F7FC /* SceneDelegate.swift */; };
+		5D7A804A246EAE030013F7FC /* ChangeVariationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A8049246EAE030013F7FC /* ChangeVariationsViewController.swift */; };
+		5D7A804F246EAE050013F7FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7A804E246EAE050013F7FC /* Assets.xcassets */; };
+		5D7A8052246EAE050013F7FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7A8050246EAE050013F7FC /* LaunchScreen.storyboard */; };
+		5D7A805C246EB3020013F7FC /* ChangeVariationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D7A8059246EAE1A0013F7FC /* ChangeVariationsViewController.xib */; };
+		5DDA8C1A246EFCB5008A39D4 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDA8C19246EFCB5008A39D4 /* NibLoadable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05A4D61150780CC28DCC425D /* Pods-Eldo Luck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eldo Luck.debug.xcconfig"; path = "Target Support Files/Pods-Eldo Luck/Pods-Eldo Luck.debug.xcconfig"; sourceTree = "<group>"; };
+		2E24014F246F47DB002DB2B7 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		2E240152246F488F002DB2B7 /* NoirPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NoirPro-Regular.otf"; sourceTree = "<group>"; };
+		2E240154246F48EA002DB2B7 /* NoirPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NoirPro-Bold.otf"; sourceTree = "<group>"; };
+		2E240156246F490D002DB2B7 /* NoirPro-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NoirPro-SemiBold.otf"; sourceTree = "<group>"; };
+		5D186711246EB8E10009073B /* QuoteCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCustomCell.swift; sourceTree = "<group>"; };
+		5D186712246EB8E10009073B /* QuoteCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuoteCustomCell.xib; sourceTree = "<group>"; };
+		5D186716246EC2DD0009073B /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		5D18671A246EC8C90009073B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		5D18671B246EC8C90009073B /* CustomButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomButton.xib; sourceTree = "<group>"; };
+		5D18671E246ED8CC0009073B /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		5D186720246EDA830009073B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5D186722246EE1EC0009073B /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		5D7A8042246EAE030013F7FC /* Eldo Luck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eldo Luck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7A8045246EAE030013F7FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D7A8047246EAE030013F7FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D7A8049246EAE030013F7FC /* ChangeVariationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeVariationsViewController.swift; sourceTree = "<group>"; };
+		5D7A804E246EAE050013F7FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D7A8051246EAE050013F7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D7A8053246EAE050013F7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D7A8059246EAE1A0013F7FC /* ChangeVariationsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangeVariationsViewController.xib; sourceTree = "<group>"; };
+		5DDA8C19246EFCB5008A39D4 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		C28876B09F50BF26AE0D376C /* Pods-Eldo Luck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eldo Luck.release.xcconfig"; path = "Target Support Files/Pods-Eldo Luck/Pods-Eldo Luck.release.xcconfig"; sourceTree = "<group>"; };
+		F726EB83D5EBFAC294F7AB63 /* Pods_Eldo_Luck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eldo_Luck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D7A803F246EAE030013F7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501D253D355F33022FD70E8C /* Pods_Eldo_Luck.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214C4B928F08B416BA59B376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05A4D61150780CC28DCC425D /* Pods-Eldo Luck.debug.xcconfig */,
+				C28876B09F50BF26AE0D376C /* Pods-Eldo Luck.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2E24014E246F47C7002DB2B7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E24014F246F47DB002DB2B7 /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2E240151246F4885002DB2B7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2E240156246F490D002DB2B7 /* NoirPro-SemiBold.otf */,
+				2E240154246F48EA002DB2B7 /* NoirPro-Bold.otf */,
+				2E240152246F488F002DB2B7 /* NoirPro-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		580D47DEC9A0FBB54AD627BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F726EB83D5EBFAC294F7AB63 /* Pods_Eldo_Luck.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D18670F246EB8890009073B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5D186716246EC2DD0009073B /* RealmHelper.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5D186710246EB8A30009073B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D186722246EE1EC0009073B /* Quote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D186724246EEABD0009073B /* QuoteCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				5D186712246EB8E10009073B /* QuoteCustomCell.xib */,
+				5D186711246EB8E10009073B /* QuoteCustomCell.swift */,
+			);
+			path = QuoteCustomCell;
+			sourceTree = "<group>";
+		};
+		5D186725246EEACE0009073B /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				5D18671B246EC8C90009073B /* CustomButton.xib */,
+				5D18671A246EC8C90009073B /* CustomButton.swift */,
+			);
+			path = CustomButton;
+			sourceTree = "<group>";
+		};
+		5D186726246EEFA20009073B /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5D186720246EDA830009073B /* MainViewController.swift */,
+				5D18671E246ED8CC0009073B /* MainViewController.xib */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		5D186727246EEFCC0009073B /* ChangeVariationsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D186728246EF0210009073B /* TableViewCells */,
+				5D7A8059246EAE1A0013F7FC /* ChangeVariationsViewController.xib */,
+				5D7A8049246EAE030013F7FC /* ChangeVariationsViewController.swift */,
+			);
+			path = ChangeVariationsViewController;
+			sourceTree = "<group>";
+		};
+		5D186728246EF0210009073B /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				5D186724246EEABD0009073B /* QuoteCustomCell */,
+				5D186725246EEACE0009073B /* CustomButton */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		5D7A8039246EAE030013F7FC = {
+			isa = PBXGroup;
+			children = (
+				5D7A8044246EAE030013F7FC /* Eldo Luck */,
+				5D7A8043246EAE030013F7FC /* Products */,
+				214C4B928F08B416BA59B376 /* Pods */,
+				580D47DEC9A0FBB54AD627BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D7A8043246EAE030013F7FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D7A8042246EAE030013F7FC /* Eldo Luck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D7A8044246EAE030013F7FC /* Eldo Luck */ = {
+			isa = PBXGroup;
+			children = (
+				2E240151246F4885002DB2B7 /* Fonts */,
+				2E24014E246F47C7002DB2B7 /* Extensions */,
+				5D7A8045246EAE030013F7FC /* AppDelegate.swift */,
+				5D7A8047246EAE030013F7FC /* SceneDelegate.swift */,
+				5DDA8C18246EFC99008A39D4 /* Protocols */,
+				5D7A805B246EB22E0013F7FC /* Interface */,
+				5D18670F246EB8890009073B /* Data */,
+				5D186710246EB8A30009073B /* Model */,
+				5D7A804E246EAE050013F7FC /* Assets.xcassets */,
+				5D7A8050246EAE050013F7FC /* LaunchScreen.storyboard */,
+				5D7A8053246EAE050013F7FC /* Info.plist */,
+			);
+			path = "Eldo Luck";
+			sourceTree = "<group>";
+		};
+		5D7A805B246EB22E0013F7FC /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				5D186727246EEFCC0009073B /* ChangeVariationsViewController */,
+				5D186726246EEFA20009073B /* MainScreen */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		5DDA8C18246EFC99008A39D4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5DDA8C19246EFCB5008A39D4 /* NibLoadable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D7A8041246EAE030013F7FC /* Eldo Luck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D7A8056246EAE050013F7FC /* Build configuration list for PBXNativeTarget "Eldo Luck" */;
+			buildPhases = (
+				9F64089803B5150AB46DBD04 /* [CP] Check Pods Manifest.lock */,
+				5D7A803E246EAE030013F7FC /* Sources */,
+				5D7A803F246EAE030013F7FC /* Frameworks */,
+				5D7A8040246EAE030013F7FC /* Resources */,
+				5895EFD96D91BFA8BA3672BF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eldo Luck";
+			productName = "Eldo Luck";
+			productReference = 5D7A8042246EAE030013F7FC /* Eldo Luck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D7A803A246EAE030013F7FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Анастасия";
+				TargetAttributes = {
+					5D7A8041246EAE030013F7FC = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 5D7A803D246EAE030013F7FC /* Build configuration list for PBXProject "Eldo Luck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D7A8039246EAE030013F7FC;
+			productRefGroup = 5D7A8043246EAE030013F7FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D7A8041246EAE030013F7FC /* Eldo Luck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D7A8040246EAE030013F7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E240153246F488F002DB2B7 /* NoirPro-Regular.otf in Resources */,
+				5D7A8052246EAE050013F7FC /* LaunchScreen.storyboard in Resources */,
+				2E240157246F490D002DB2B7 /* NoirPro-SemiBold.otf in Resources */,
+				5D18671F246ED8CC0009073B /* MainViewController.xib in Resources */,
+				5D186714246EB8E10009073B /* QuoteCustomCell.xib in Resources */,
+				5D7A805C246EB3020013F7FC /* ChangeVariationsViewController.xib in Resources */,
+				5D18671D246EC8C90009073B /* CustomButton.xib in Resources */,
+				2E240155246F48EA002DB2B7 /* NoirPro-Bold.otf in Resources */,
+				5D7A804F246EAE050013F7FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5895EFD96D91BFA8BA3672BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eldo Luck/Pods-Eldo Luck-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eldo Luck/Pods-Eldo Luck-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eldo Luck/Pods-Eldo Luck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F64089803B5150AB46DBD04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eldo Luck-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D7A803E246EAE030013F7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D186721246EDA830009073B /* MainViewController.swift in Sources */,
+				5D7A804A246EAE030013F7FC /* ChangeVariationsViewController.swift in Sources */,
+				5D186717246EC2DD0009073B /* RealmHelper.swift in Sources */,
+				5DDA8C1A246EFCB5008A39D4 /* NibLoadable.swift in Sources */,
+				5D18671C246EC8C90009073B /* CustomButton.swift in Sources */,
+				5D186723246EE1EC0009073B /* Quote.swift in Sources */,
+				5D186713246EB8E10009073B /* QuoteCustomCell.swift in Sources */,
+				2E240150246F47DB002DB2B7 /* UIImage+Extension.swift in Sources */,
+				5D7A8046246EAE030013F7FC /* AppDelegate.swift in Sources */,
+				5D7A8048246EAE030013F7FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D7A8050246EAE050013F7FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D7A8051246EAE050013F7FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D7A8054246EAE050013F7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D7A8055246EAE050013F7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D7A8057246EAE050013F7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A4D61150780CC28DCC425D /* Pods-Eldo Luck.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XT64U8RD27;
+				INFOPLIST_FILE = "Eldo Luck/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nastyouth.Eldo-Luck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5D7A8058246EAE050013F7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28876B09F50BF26AE0D376C /* Pods-Eldo Luck.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XT64U8RD27;
+				INFOPLIST_FILE = "Eldo Luck/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nastyouth.Eldo-Luck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D7A803D246EAE030013F7FC /* Build configuration list for PBXProject "Eldo Luck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7A8054246EAE050013F7FC /* Debug */,
+				5D7A8055246EAE050013F7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D7A8056246EAE050013F7FC /* Build configuration list for PBXNativeTarget "Eldo Luck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7A8057246EAE050013F7FC /* Debug */,
+				5D7A8058246EAE050013F7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D7A803A246EAE030013F7FC /* Project object */;
+}
